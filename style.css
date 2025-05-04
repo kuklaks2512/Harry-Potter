@@ -1,0 +1,268 @@
+
+body{
+  font-family:Andalé Mono ,monospace ;
+  margin: 0px;
+
+}
+
+
+
+
+
+.background-image{
+  z-index:-1;
+  position: fixed;
+  width: 100%;
+  display: block;
+  top: 0;
+}
+ 
+
+
+
+header{
+ background-color: rgba(0, 0, 0, 0.756);
+  height: 110px;
+ top: 0;
+  left: 0;
+  width: 1550px;
+  z-index: 2;
+  position: fixed;
+}
+  footer{
+    background-color: rgba(0, 0, 0, 0.756);
+     height: 110px;
+    top: bottom;
+     left: 0;
+     width: 1550px;
+     z-index: 2;
+     position: absolute;
+
+}
+
+main{
+  margin-top:110px;
+
+  width: 1550px;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main {
+  display: block;
+  border: 1px solid black;
+  height: 750px;
+  width: 1550px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.289);
+
+}
+
+
+
+
+.main h1{
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 50px;
+  transition: 0.2s ease-in-out;
+}
+
+.main p{
+  margin-left: 40px;
+  font-size: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.main img{
+margin-left: 50px;
+width:500px;
+}
+
+
+
+
+ 
+
+.history , .films{
+  display: block;
+  border: 1px solid black;
+  height: 850px;
+  width: 1550px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.289);
+
+
+
+}
+
+.history h2{
+  margin-left: 40px;
+  margin-top: 120px;
+  font-size: 50px;
+  transition: 0.2s ease-in-out;
+}
+
+.history p{
+  margin-left: 40px;
+  font-size: 20px;
+  margin-top: 0px;
+  transition: 0.2s ease-in-out;
+}
+
+
+
+.films h2{
+  margin-left: 40px;
+  margin-top: 120px;
+  font-size: 50px;
+  transition: 0.2s ease-in-out;
+}
+
+.films p{
+  margin-left: 40px;
+  font-size: 20px;
+  margin-top: 0px;
+  transition: 0.2s ease-in-out;
+}
+
+.history img{
+margin-left: 50px;
+width:500px;
+}
+
+
+.films a:hover{
+
+  transform: scale(1.02);
+  transition: 0.2s ease-in-out;
+  color:rgb(147, 147, 255);
+  background-color:rgba(54, 54, 54, 0.397);
+}
+
+.Personagy {
+  display: block;
+  border: 1px solid black;
+  width: 1550px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.289);
+  
+}
+
+.Personagy  h3{
+  margin-left: 40px;
+  margin-top: 120px;
+  font-size: 50px;
+  transition: 0.2s ease-in-out;
+}
+
+.Personagy  p{
+  margin-left: 40px;
+  font-size: 20px;
+  transition: 0.2s ease-in-out;
+  
+}
+
+.Personagy  img{
+margin: 0px 0px 20px 50px;
+width:500px;
+}
+
+
+.films a{
+
+    margin-left: 40px;
+    margin-bottom: 0px;
+    padding: 2px;
+    border: 1px solid black;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.523);
+    transition: 0.2s ease-in-out;
+    font-size: 14px;
+    text-decoration: none;
+    width: 500px;
+    color:white;
+}
+
+
+
+
+
+
+p:hover{
+  color:white;
+  transition: 0.2s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.451);
+}
+
+h1:hover{
+  color:white;
+  transition: 0.2s ease-in-out;
+}
+h2:hover{
+  color:white;
+  transition: 0.2s ease-in-out;
+}
+h3:hover{
+  color:white;
+  transition: 0.2s ease-in-out;
+}
+
+
+img:hover{
+  transform:scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+
+img{
+  transition: 0.2s ease-in-out;
+}
+
+header img{
+  width: 80px;
+  margin: 10px 0 0 20px ;
+}
+
+.main img:hover{
+  transform: scale(1);
+}
+
+
+header a{
+  transition: 0.3s ease-out;
+  padding: 10px;
+  border: 2px solid black;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.425);
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 5px 5px 10px 1px rgba(255, 255, 255, 0.449);
+  border-radius: 20px;
+  float: right;
+  margin: 20px 50px 0 0;
+}
+
+header a:hover{
+  margin: 10px 60px 0 0;
+  transition: 0.3s ease-out;
+  top: 20px;
+  left: 140px;
+  box-shadow: 20px 20px 10px 1px rgba(255, 255, 255, 0.449);
+ 
+}
+
+p{
+  background-color: rgba(255, 255, 255, 0.104);
+  border-radius: 10px;
+}
